@@ -1,0 +1,10 @@
+Data Dictionary
+-=-=-=-=-=-=-=-
+
+Star - the Star rating. A value between 1.0 and 6.0 but sometimes up to 10.0 (TVs, A/C, fridges), in steps of 0.5 between 1.0 and 6.0 and then in whole star units from 7.0 to 10.0.
+SRI - Star Rating Index - unrounded Star rating
+CEC - Comparative Energy Consumption - the kWh listed on the label
+BEC - Base Energy Consumption - the kWh for a 1-star appliance.
+Cap - Capacity / Volume
+Tot.Vol - Total Volume
+TotWatCons - Total Water Consumed
