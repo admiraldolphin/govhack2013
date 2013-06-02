@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Store.js">
+    <Files>
+      <File FileName="Assets/Card.js" Line="127" Column="3" />
+      <File FileName="Assets/Plugins/iTween.cs" Line="13" Column="3" />
+      <File FileName="Assets/GameManager.js" Line="187" Column="2" />
+      <File FileName="Assets/Selection.js" Line="7" Column="1" />
+      <File FileName="Assets/Store.js" Line="16" Column="30" />
+      <File FileName="Assets/Appliance.js" Line="89" Column="24" />
+      <File FileName="Assets/Player.js" Line="25" Column="1" />
+      <File FileName="Assets/CardSlot.js" Line="6" Column="1" />
+      <File FileName="Assets/Button.js" Line="41" Column="19" />
+      <File FileName="Assets/TextureManager.js" Line="14" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
