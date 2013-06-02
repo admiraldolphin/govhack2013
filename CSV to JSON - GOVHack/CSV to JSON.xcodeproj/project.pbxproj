@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C323644169CDA69006E920F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C323643169CDA69006E920F /* Cocoa.framework */; };
+		7C32364E169CDA69006E920F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C32364C169CDA69006E920F /* InfoPlist.strings */; };
+		7C323650169CDA69006E920F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C32364F169CDA69006E920F /* main.m */; };
+		7C323654169CDA69006E920F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C323652169CDA69006E920F /* Credits.rtf */; };
+		7C323657169CDA69006E920F /* CHENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C323656169CDA69006E920F /* CHENAppDelegate.m */; };
+		7C32365A169CDA69006E920F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C323658169CDA69006E920F /* MainMenu.xib */; };
+		7C323670169CDCE1006E920F /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C323666169CDB95006E920F /* NSArray+CHCSVAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C323671169CDCE1006E920F /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C323668169CDB95006E920F /* NSString+CHCSVAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C323672169CDCE1006E920F /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C32366B169CDB95006E920F /* CHCSVParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C323673169CDCE1006E920F /* CHCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C32366D169CDB95006E920F /* CHCSVWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C323679169CE0EF006E920F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C323678169CE0E1006E920F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C8F36B316AEEF2E00DFCBDE /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F36AF16AEEC4F00DFCBDE /* NSString+HTML.m */; };
+		7C8F36B416AEEF2E00DFCBDE /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F36B116AEEC4F00DFCBDE /* GTMNSString+HTML.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C32363F169CDA68006E920F /* CSV to JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSV to JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C323643169CDA69006E920F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7C323646169CDA69006E920F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7C323647169CDA69006E920F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7C323648169CDA69006E920F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C32364B169CDA69006E920F /* CSV to JSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSV to JSON-Info.plist"; sourceTree = "<group>"; };
+		7C32364D169CDA69006E920F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C32364F169CDA69006E920F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C323651169CDA69006E920F /* CSV to JSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSV to JSON-Prefix.pch"; sourceTree = "<group>"; };
+		7C323653169CDA69006E920F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7C323655169CDA69006E920F /* CHENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHENAppDelegate.h; sourceTree = "<group>"; };
+		7C323656169CDA69006E920F /* CHENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHENAppDelegate.m; sourceTree = "<group>"; };
+		7C323659169CDA69006E920F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7C323665169CDB95006E920F /* NSArray+CHCSVAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		7C323666169CDB95006E920F /* NSArray+CHCSVAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CHCSVAdditions.m"; sourceTree = "<group>"; };
+		7C323667169CDB95006E920F /* NSString+CHCSVAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		7C323668169CDB95006E920F /* NSString+CHCSVAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHCSVAdditions.m"; sourceTree = "<group>"; };
+		7C323669169CDB95006E920F /* CHCSV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSV.h; sourceTree = "<group>"; };
+		7C32366A169CDB95006E920F /* CHCSVParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		7C32366B169CDB95006E920F /* CHCSVParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		7C32366C169CDB95006E920F /* CHCSVWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVWriter.h; sourceTree = "<group>"; };
+		7C32366D169CDB95006E920F /* CHCSVWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCSVWriter.m; sourceTree = "<group>"; };
+		7C323677169CE0E1006E920F /* JSONKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		7C323678169CE0E1006E920F /* JSONKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		7C8F36AE16AEEC4F00DFCBDE /* NSString+HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		7C8F36AF16AEEC4F00DFCBDE /* NSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		7C8F36B016AEEC4F00DFCBDE /* GTMNSString+HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		7C8F36B116AEEC4F00DFCBDE /* GTMNSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C32363C169CDA68006E920F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C323644169CDA69006E920F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C323634169CDA68006E920F = {
+			isa = PBXGroup;
+			children = (
+				7C323649169CDA69006E920F /* CSV to JSON */,
+				7C323642169CDA68006E920F /* Frameworks */,
+				7C323640169CDA68006E920F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C323640169CDA68006E920F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C32363F169CDA68006E920F /* CSV to JSON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C323642169CDA68006E920F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C323643169CDA69006E920F /* Cocoa.framework */,
+				7C323645169CDA69006E920F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C323645169CDA69006E920F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C323646169CDA69006E920F /* AppKit.framework */,
+				7C323647169CDA69006E920F /* CoreData.framework */,
+				7C323648169CDA69006E920F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7C323649169CDA69006E920F /* CSV to JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7C8F36AE16AEEC4F00DFCBDE /* NSString+HTML.h */,
+				7C8F36AF16AEEC4F00DFCBDE /* NSString+HTML.m */,
+				7C8F36B016AEEC4F00DFCBDE /* GTMNSString+HTML.h */,
+				7C8F36B116AEEC4F00DFCBDE /* GTMNSString+HTML.m */,
+				7C323655169CDA69006E920F /* CHENAppDelegate.h */,
+				7C323656169CDA69006E920F /* CHENAppDelegate.m */,
+				7C323658169CDA69006E920F /* MainMenu.xib */,
+				7C323676169CE0D4006E920F /* JSONKit */,
+				7C323664169CDB85006E920F /* CSV Parser */,
+				7C32364A169CDA69006E920F /* Supporting Files */,
+			);
+			path = "CSV to JSON";
+			sourceTree = "<group>";
+		};
+		7C32364A169CDA69006E920F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C32364B169CDA69006E920F /* CSV to JSON-Info.plist */,
+				7C32364C169CDA69006E920F /* InfoPlist.strings */,
+				7C32364F169CDA69006E920F /* main.m */,
+				7C323651169CDA69006E920F /* CSV to JSON-Prefix.pch */,
+				7C323652169CDA69006E920F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C323664169CDB85006E920F /* CSV Parser */ = {
+			isa = PBXGroup;
+			children = (
+				7C323665169CDB95006E920F /* NSArray+CHCSVAdditions.h */,
+				7C323666169CDB95006E920F /* NSArray+CHCSVAdditions.m */,
+				7C323667169CDB95006E920F /* NSString+CHCSVAdditions.h */,
+				7C323668169CDB95006E920F /* NSString+CHCSVAdditions.m */,
+				7C323669169CDB95006E920F /* CHCSV.h */,
+				7C32366A169CDB95006E920F /* CHCSVParser.h */,
+				7C32366B169CDB95006E920F /* CHCSVParser.m */,
+				7C32366C169CDB95006E920F /* CHCSVWriter.h */,
+				7C32366D169CDB95006E920F /* CHCSVWriter.m */,
+			);
+			name = "CSV Parser";
+			sourceTree = "<group>";
+		};
+		7C323676169CE0D4006E920F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C323677169CE0E1006E920F /* JSONKit.h */,
+				7C323678169CE0E1006E920F /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C32363E169CDA68006E920F /* CSV to JSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C32365D169CDA69006E920F /* Build configuration list for PBXNativeTarget "CSV to JSON" */;
+			buildPhases = (
+				7C32363B169CDA68006E920F /* Sources */,
+				7C32363C169CDA68006E920F /* Frameworks */,
+				7C32363D169CDA68006E920F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSV to JSON";
+			productName = "CSV to JSON";
+			productReference = 7C32363F169CDA68006E920F /* CSV to JSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C323636169CDA68006E920F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CHEN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nicholas Wittison";
+			};
+			buildConfigurationList = 7C323639169CDA68006E920F /* Build configuration list for PBXProject "CSV to JSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C323634169CDA68006E920F;
+			productRefGroup = 7C323640169CDA68006E920F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C32363E169CDA68006E920F /* CSV to JSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C32363D169CDA68006E920F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C32364E169CDA69006E920F /* InfoPlist.strings in Resources */,
+				7C323654169CDA69006E920F /* Credits.rtf in Resources */,
+				7C32365A169CDA69006E920F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C32363B169CDA68006E920F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8F36B316AEEF2E00DFCBDE /* NSString+HTML.m in Sources */,
+				7C8F36B416AEEF2E00DFCBDE /* GTMNSString+HTML.m in Sources */,
+				7C323679169CE0EF006E920F /* JSONKit.m in Sources */,
+				7C323670169CDCE1006E920F /* NSArray+CHCSVAdditions.m in Sources */,
+				7C323671169CDCE1006E920F /* NSString+CHCSVAdditions.m in Sources */,
+				7C323672169CDCE1006E920F /* CHCSVParser.m in Sources */,
+				7C323673169CDCE1006E920F /* CHCSVWriter.m in Sources */,
+				7C323650169CDA69006E920F /* main.m in Sources */,
+				7C323657169CDA69006E920F /* CHENAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C32364C169CDA69006E920F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C32364D169CDA69006E920F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C323652169CDA69006E920F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C323653169CDA69006E920F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7C323658169CDA69006E920F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C323659169CDA69006E920F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C32365B169CDA69006E920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C32365C169CDA69006E920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C32365E169CDA69006E920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSV to JSON/CSV to JSON-Prefix.pch";
+				INFOPLIST_FILE = "CSV to JSON/CSV to JSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C32365F169CDA69006E920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSV to JSON/CSV to JSON-Prefix.pch";
+				INFOPLIST_FILE = "CSV to JSON/CSV to JSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C323639169CDA68006E920F /* Build configuration list for PBXProject "CSV to JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C32365B169CDA69006E920F /* Debug */,
+				7C32365C169CDA69006E920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C32365D169CDA69006E920F /* Build configuration list for PBXNativeTarget "CSV to JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C32365E169CDA69006E920F /* Debug */,
+				7C32365F169CDA69006E920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C323636169CDA68006E920F /* Project object */;
+}
